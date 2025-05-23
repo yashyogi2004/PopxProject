@@ -1,10 +1,10 @@
 import React from 'react';
-import Login from './components/Login';
-import Landing from './components/Landing'; 
+import Login from './Pages/Login';
+import Landing from './Pages/Landing'; 
 import './App.css'
 import { Route, Routes } from 'react-router-dom';
-import Register from './components/Register';
-import Profile from './components/profile';
+import Register from './Pages/Register';
+import Profile from './Pages/profile';
 
 function App() {
   return (
